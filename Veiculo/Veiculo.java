@@ -1,5 +1,8 @@
 package Veiculo;
 
-public class Veiculo {
-    
+public interface Veiculo {
+
+    void acelerar();
+
+    void frear();
 }
